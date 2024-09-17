@@ -79,12 +79,14 @@ background-color: white;
     border-radius: 50%;
     border: 1px solid green;
     color: #48a626;
+    margin: 10px;
   }
 
   .uncompleted{
     border-radius: 50%;
     border: 1px solid red;
     color: red;
+    margin: 10px;
   }
 
   #Q1-Goals{
