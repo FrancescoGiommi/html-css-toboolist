@@ -75,6 +75,18 @@ background-color: white;
     margin: 10px;
   }
 
+  .completed{
+    border-radius: 50%;
+    border: 1px solid green;
+    color: #48a626;
+  }
+
+  .uncompleted{
+    border-radius: 50%;
+    border: 1px solid red;
+    color: red;
+  }
+
   #Q1-Goals{
     background-color: blueviolet;
   }
