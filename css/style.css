@@ -34,7 +34,7 @@
   }
 
   #Add-section{
-
+background-color: white;
   }
 
   .Task-List{
@@ -42,8 +42,28 @@
   }
 
   .Tag-item{
-    border-radius: 15%;
+    border-radius: 5px;
     background-color: aqua;
     margin: 5px;
-    border: 1px;;
+    padding: 3px;
+  }
+
+  #Q1-Goals{
+    background-color: blueviolet;
+  }
+
+  #Recluiting{
+    background-color: green;
+  }
+
+  #Mobile{
+    background-color: orange;
+  }
+
+  #Website{
+    background-color: deeppink
+  }
+
+  #Sales{
+    background-color: greenyellow;
   }
