@@ -12,6 +12,8 @@
 
   header{
     background-color: white;
+    vertical-align: middle;
+    line-height: 100px;
   }
   
 /* # UTILS */
@@ -26,12 +28,15 @@
   
   #Title{
     display: inline-block;
+    font-size: 40px;
+    vertical-align: middle;
   }
 
   .logo{
     height: 100px;
-    width: 100px;
   }
+
+ 
 
   section{
     margin: 30px;
@@ -43,7 +48,7 @@
   }
 
   #Add-task{
-    background-color: cyan;
+    background-color: #66c3e8;
   }
 
   #Add-section{
@@ -56,9 +61,10 @@ background-color: white;
 
   .Tag-item{
     border-radius: 5px;
-    background-color: aqua;
+    background-color:#66c3e8;
     margin: 5px;
     padding: 3px;
+    color: white;
   }
 
   .item{
@@ -82,5 +88,5 @@ background-color: white;
   }
 
   #Sales{
-    background-color: greenyellow;
+    background-color:#48a626;
   }

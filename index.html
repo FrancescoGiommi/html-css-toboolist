@@ -1,82 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toboolist</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-        <header>
-            <!--Logo e titolo-->
-            <figure>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toboolist</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+            <header>
+                <!--Logo e titolo-->
                 <img class="logo" src="./img/Logo.png" alt="logo">
-            </figure>
-            <h1 id="Title">Toboolist</h1>
-        </header>
+                <h1 id="Title">Toboolist</h1>
+            </header>
 
-        <main>
-            <div class="container">
-                <!--Bottoni per aggiungere task e sezioni-->
-                <section>
-                    <button class="button" id="Add-task">Add Task</button>
-                    <button class="button" id="Add-section">Add Section</button>
-                </section>
-                
-                <section>
-                    <!--Lista task-->
-                    <span class="Task-List"><strong>&#128899;New Task</strong></span>
+            <main>
+                <div class="container">
+                    <!--Bottoni per aggiungere task e sezioni-->
+                    <section>
+                        <button class="button" id="Add-task">Add Task</button>
+                        <button class="button" id="Add-section">Add Section</button>
+                    </section>
                     
-                    <ul>
-                        <li class="item">&check;Quarterly Newsletter
-                            <span class="Tag-item">Editorial</span>
-                        </li>
-                    </ul>
-                </section>
-                
-                <section>
+                    <section>
+                        <!--Lista task-->
+                        <span class="Task-List"><strong>&#128899;New Task</strong></span>
+                        
+                        <div>
+                        
+                            <ul>
+                            <li class="item">&check;Quarterly Newsletter
+                                <span class="Tag-item">Editorial</span>
+                            </li>
+                        
+                            </ul>
+                        </div>
+                    </section>
                     
-                    <span class="Task-List"><strong>&#128899;Today</strong></span>
+                    <section>
+                        
+                        <span class="Task-List"><strong>&#128899;Today</strong></span>
+                        
+                        <ul>
+                            <li class="item">&check;Recluiting blog post
+                                <span class="Tag-item">Editorial</span>
+                            </li>
+                            <li class="item">&check;Mobile app luaunch
+                                <span class="Tag-item" id="Q1-Goals">Q1 Goals</span>
+                            </li>
+                            <li class="item">&#10005;Interview John H.
+                                <span class="Tag-item" id="Recluiting">Recluiting</span>
+                            </li>
+                            <li class="item">&check;Summit update to mobile storefronts
+                                <span class="Tag-item" id="Mobile">Mobile</span>
+                            </li>
+                        </ul>
                     
-                    <ul>
-                        <li class="item">&check;Recluiting blog post
-                            <span class="Tag-item">Editorial</span>
-                        </li>
-                        <li class="item">&check;Mobile app luaunch
-                            <span class="Tag-item" id="Q1-Goals">Q1 Goals</span>
-                        </li>
-                        <li class="item">&#10005;Interview John H.
-                            <span class="Tag-item" id="Recluiting">Recluiting</span>
-                        </li>
-                        <li class="item">&check;Summit update to mobile storefronts
-                            <span class="Tag-item" id="Mobile">Mobile</span>
-                        </li>
-                    </ul>
-                
-                </section>
-                
-                <section>
-
-                    <span class="Task-List"><strong>&#128899;Upcoming</strong></span>
+                    </section>
                     
-                    <ul>
-                        <li class="item">&#10005;Schedule meeting with Alex</li>
+                    <section>
 
-                        <li class="item">&check;Homepage refresh
-                            <span class="Tag-item" id="Website">Website</span>
-                        </li>
+                        <span class="Task-List"><strong>&#128899;Upcoming</strong></span>
+                        
+                        <ul>
+                            <li class="item">&#10005;Schedule meeting with Alex</li>
 
-                        <li class="item">&check;Onboard new Sales team members
-                            <span class="Tag-item" id="Sales">Sales</span>
-                        </li>
+                            <li class="item">&check;Homepage refresh
+                                <span class="Tag-item" id="Website">Website</span>
+                            </li>
 
-                        <li class="item">&check;Review editorial calendar
-                            <span class="Tag-item">Editorial</span>
-                        </li>
-                    </ul>
-                
-                </section>
-            </div>
-        </main>
-</body>
+                            <li class="item">&check;Onboard new Sales team members
+                                <span class="Tag-item" id="Sales">Sales</span>
+                            </li>
+
+                            <li class="item">&check;Review editorial calendar
+                                <span class="Tag-item">Editorial</span>
+                            </li>
+                        </ul>
+                    
+                    </section>
+                </div>
+            </main>
+    </body>
 </html>
