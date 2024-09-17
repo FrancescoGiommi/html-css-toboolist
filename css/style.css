@@ -15,9 +15,26 @@
     max-width: 100%;
   }
   
+  #Title{
+    display: inline-block;
+  }
+
   .logo{
     height: 100px;
     width: 100px;
+  }
+
+  .button{
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  #Add-task{
+    background-color: cyan;
+  }
+
+  #Add-section{
+
   }
 
   .Task-List{
@@ -25,5 +42,8 @@
   }
 
   .Tag-item{
-    
+    border-radius: 15%;
+    background-color: aqua;
+    margin: 5px;
+    border: 1px;;
   }
